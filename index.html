@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem bói tình yêu</title>
+    <link rel='stylesheet' href='my.css'>
+</head>
+<body>
+<div>
+    <center>
+    <table border='1' class='xem-boi'>
+        <tr>
+            <td>
+                <h3>Tên bạn nam:</h3>
+                <p id='boy-name-input'><input id='boy-name' placeholder="Nhập tên bạn nam" type='text'></p>
+            </td>
+            <td>
+                <h3>Tên bạn nữ:</h3>
+                <p id='girl-name-input'><input id='girl-name' placeholder="Nhập tên bạn nữ" type='text'></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Năm sinh bạn nam:</h3>
+                <p id='boy-year-input'><input id='boy-year' placeholder="Nhập tuổi bạn nam" type='number' value='2000'></p>
+            </td>
+            <td>
+                <h3>Năm sinh bạn nữ:</h3>
+                <p id='girl-year-input'><input id='girl-year' placeholder="Nhập tuổi bạn nữ" type='number' value='2000'></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan='2'>
+                <button type="button" id='confirm' onclick='confirm()'>Confirm</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3 id='boy-leap-year'></h3>
+            </td>
+            <td>
+                <h3 id='girl-leap-year'></h3>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <h3 id='result'></h3>
+            </td>
+        </tr>
+    </table>
+</center>
+</div>
+    <script src='my.js'></script>
+</body>
+</html>
